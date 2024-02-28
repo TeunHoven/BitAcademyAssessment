@@ -1,0 +1,38 @@
+#screen {
+    overflow: hidden;
+}
+
+#game {
+    float: left;
+}
+
+#information {
+    float: left;
+    margin-left: 1%
+}
+
+#hit {
+    margin: 0;
+    color: red;
+    visibility: hidden;
+}
+
+#turn {
+    margin: 0;
+}
+
+#score-white {
+    margin-bottom: 0;
+}
+
+#score-black {
+    margin-top: 0;
+}
+
+#move-buttons {
+    visibility: hidden;
+}
+
+#reset-game {
+    visibility: hidden;
+}

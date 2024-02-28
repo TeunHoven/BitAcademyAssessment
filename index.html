@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <title>Dammen - Bit Academy Assessment</title>
+    <script type="text/javascript" src="objects/Move.js"></script>
+    <script type="text/javascript" src="objects/Schijf.js"></script>
+    <script type="text/javascript" src="objects/Player.js"></script>
+    <script type="text/javascript" src="objects/Vak.js"></script>
+    <script type="text/javascript" src="objects/Board.js"></script>
+    <script type="text/javascript" src="objects/Game.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <div id="screen">
+        <div id="game">
+            <button onclick="start(1)">Start game tegen computer!</button>
+            <button onclick="start(2)">Start game tegen speler!</button>
+        </div>
+        <div id="information">
+            <div id="buttons">
+                <div id="move-buttons">
+                    <button onclick="moveBack()" id="move-back">Terug 1 zet</button>
+                    <button onclick="moveForward()" id="move-forward">Verder 1 zet</button>
+                </div>
+                <button onclick="resetGame()" id="reset-game" disabled>Reset Game</button>
+            </div>
+            <h1 id="turn">Speler wit is aan zet</h1>
+            <p id="hit">Verplicht te slaan!</p>
+            <h2 id="score-white">Score wit: 0</h2>
+            <h2 id="score-black">Score zwart: 0</h2>
+        </div>
+    </div>
+    <div id="footer">
+        <p>Teun Hoven - 2024</p>
+    </div>
+</body>
+</html>
